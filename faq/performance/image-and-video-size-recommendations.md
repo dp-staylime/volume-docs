@@ -1,3 +1,0 @@
-# Image & video size recommendations
-
-***
