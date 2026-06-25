@@ -18,5 +18,29 @@
 
 ## Products
 
-* [Header & Menu Styles](products/header-and-menu-styles.md)
-* [Smart Category Menu](products/smart-category-menu.md)
+* [Product Page Layout](products/product-page-layout.md)
+* [Color Swatches](products/color-swatches.md)
+* [Inventory Status](products/inventory-status.md)
+* [Size Guide](products/size-guide.md)
+* [Custom Options](products/custom-options.md)
+* [Linked Products](products/linked-products.md)
+* [Quick View & Pre-order](products/quick-view-and-pre-order.md)
+
+## Collections
+
+* [Collection Banner](collections/collection-banner.md)
+* [Subcollections](collections/subcollections.md)
+* [Product Grid & Filtering](collections/product-grid-and-filtering.md)
+
+***
+
+* [Icons](icons.md)
+
+## Advanced Features
+
+* [Image Grid](advanced-features/image-grid.md)
+* [Store Selector](advanced-features/store-selector.md)
+
+***
+
+* [FAQ](faq.md)
