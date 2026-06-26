@@ -1,52 +1,86 @@
 # Typography
 
-Volume provides granular control over all typography settings — from base font size to individual heading styles and special text effects.
+Control fonts, sizes, and typographic effects from **Theme settings → Typography**.
 
-### Base Font Size
+`[SCREENSHOT: Typography panel in Theme settings]`
 
-Use the **Base font size** slider to scale all body text proportionally across the store. Changes here affect paragraphs, labels, and UI elements simultaneously.
+---
 
-📸 SCREENSHOT: Base font size slider in Theme settings → Typography
+## Font size scale
 
-### Font Families
+**Base size** — a range slider that scales all headings and body text proportionally at once. Use this for quick global adjustments before fine-tuning individual styles.
 
-Volume lets you set separate font families for two text roles:
+> **Tip:** Desktop font size scale settings are calculated as a percentage of the Base size. For example: Page title set to 150% with Base size 40px = 60px.
 
-* **Body text** — paragraphs, product descriptions, UI labels
-* **Heading text** — H1–H6 headings across the storefront
+---
 
-Choose any font from Shopify's font library or system fonts.
+## Heading styles
 
-### Granular Heading Control
+Volume provides individual control for three heading types:
 
-Each heading level (H1–H6) is independently configurable:
+| Heading | Used for |
+|---------|---------|
+| **Page title** | Main page and product titles |
+| **Section heading** | Section titles throughout the storefront |
+| **Secondary heading** | Supporting headings and alternative heading style |
 
-| Property       | Description                  |
-| -------------- | ---------------------------- |
-| Font size      | Size in px or rem            |
-| Font weight    | Thin, Regular, Bold, etc.    |
-| Line height    | Spacing between lines        |
-| Letter spacing | Character spacing (tracking) |
-| Text transform | None, Uppercase, Capitalize  |
+Each heading type can be configured separately for **desktop** and **mobile** sizes.
 
-This allows precise typographic hierarchy without custom CSS.
+---
 
-📸 SCREENSHOT: H1–H6 heading settings expanded in Theme settings → Typography
+## Subheading
 
-### Special Heading Styles
+- Choose between **Heading** or **Body** font
+- Enable **Make font bolder** to increase weight
 
-Volume supports two inline text effects using bracket syntax inside heading content:
+---
 
-#### Secondary Heading — {curly brackets}
+## Caption
 
-Wrap any word or phrase in curly brackets inside a heading to apply the **secondary heading style** — typically a contrasting font, weight, or color defined in your theme settings.
+The smallest text style used in the interface. Should not be set larger than the Body font size.
 
-Example: Discover {New} Arrivals
+---
 
-#### Highlighted Heading — \[square brackets]
+## Buttons
 
-Wrap text in square brackets to apply a **highlight effect** — such as an underline, background color, or decorative stroke.
+Separate typography settings for:
 
-Example: Shop \[Summer] Collection
+- **Main buttons** — larger buttons used in prominent sections
+- **Secondary buttons** — utility buttons for smaller interface elements
 
-📸 SCREENSHOT: Live storefront heading showing curly and square bracket effects applied
+Each button type supports three display styles: **Solid**, **Outlined**, **Link**.
+
+---
+
+## Special heading effects
+
+Two inline effects can be applied to any heading field using bracket syntax.
+
+### Secondary heading — {curly brackets}
+
+Wrap any word or phrase in `{curly brackets}` to apply the Secondary heading font to that part of the text.
+
+Example: `Discover {New} Arrivals`
+
+There are two ways to use the Secondary heading font:
+1. Wrap specific words in `{curly brackets}` inside the heading field
+2. Switch individual heading types from **Main** to **Secondary** in **Theme settings → Typography**
+
+`[SCREENSHOT: Heading with curly brackets showing secondary font applied]`
+
+### Highlighted heading — [square brackets]
+
+Wrap text in `[square brackets]` to apply a **highlighted background** to that part of the text. The highlight color is taken from the **Highlighted background** color in the Color scheme applied to that section.
+
+Example: `Shop [Summer] Collection`
+
+`[SCREENSHOT: Heading with square brackets showing highlighted background]`
+
+> **Tip:** You can combine both effects in the same heading — `{Discover} [New] Arrivals`.
+
+---
+
+## Related
+
+- [Colors & Color Schemes](colors-and-color-schemes.md) — set the Highlighted background color per scheme
+- [Variant Picker](variant-picker.md) — typography settings for buttons and UI elements
