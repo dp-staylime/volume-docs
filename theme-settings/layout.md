@@ -1,41 +1,58 @@
 # Layout
 
-The Layout settings in Volume control the overall visual structure of your storefront — page width, spacing, content alignment, and responsive behavior.
+Control page margins, section spacing, and grid configurations from **Theme settings → Layout**.
 
-### Page Width
+`[SCREENSHOT: Layout settings panel in Theme settings]`
 
-Set the maximum width of the main content area. A narrower width creates a focused, editorial feel; a wider setting maximizes product grid density.
+---
 
-📸 SCREENSHOT: Page width slider in Theme settings → Layout
+## Margins and spacing
 
-### Section Spacing
+Basic layout settings for the entire storefront:
 
-Control the vertical spacing between page sections. Adjust top and bottom padding globally so that all sections maintain consistent rhythm without per-section overrides.
+- **Left and right margins** — horizontal padding between the browser edge and page content
+- **Spacing between sections** — vertical gap between page sections
 
-📸 SCREENSHOT: Section spacing controls in Theme settings → Layout
+---
 
-### Content Alignment
+## Grids
 
-Choose how content is aligned within containers:
+Volume includes three pre-configured grids that define the width and gap structure for sections. Each grid can be applied to any section individually.
 
-* **Left** — standard reading alignment, works well for text-heavy layouts
-* **Center** — emphasizes headlines and CTAs, popular for landing pages
-* **Right** — uncommon, used for specialized RTL-adjacent designs
+| Grid | Description |
+|------|-------------|
+| **Page Grid** | Primary grid used for most sections with standard width and gaps |
+| **Secondary Grid** | Alternative grid for sections that need different width or spacing |
+| **Alternative Grid** | Designed for specific sections such as navigation |
 
-### Grid & Columns
+`[SCREENSHOT: Three grid configurations in Layout settings]`
 
-Configure the default product grid:
+### Grid settings
 
-| Setting           | Description                               |
-| ----------------- | ----------------------------------------- |
-| Columns (desktop) | Number of product columns on wide screens |
-| Columns (mobile)  | Number of columns on small screens        |
-| Gap               | Spacing between grid items                |
+Each grid includes:
 
-📸 SCREENSHOT: Grid column settings in Theme settings → Layout
+| Setting | Description |
+|---------|-------------|
+| **Full-width** | Expands the section to the full width of the browser window |
+| **Max width** | Maximum width for the section when Full-width is disabled |
+| **Column gap** | Horizontal spacing between grid columns |
+| **Row gap** | Vertical spacing between grid rows |
 
-### Sticky Header
+---
 
-Enable the sticky header option to keep the navigation bar visible as customers scroll down. Recommended for stores with long product pages or storytelling sections.
+## Section-level overrides
 
-📸 SCREENSHOT: Sticky header toggle in Theme settings → Layout
+In individual section settings, you can override the selected grid:
+
+- **Make full-width** — expands the specific section edge-to-edge regardless of grid settings
+- **Disable grid max-width** — removes the width constraint for this section only
+- **Disable grid gaps** — removes column and row gaps for this section only
+
+> **Tip:** Use **Disable grid max-width** for hero banners and image sections that should bleed to the full viewport width while keeping content-heavy sections contained.
+
+---
+
+## Related
+
+- [Header & Menu Styles](../navigation/header-and-menu-styles.md)
+- [Collection Banner](../collections/collection-banner.md)
