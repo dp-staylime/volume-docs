@@ -1,8 +1,6 @@
 # Announcement Bar & Footer
 
----
-
-## Announcement Bar
+### Announcement Bar
 
 The Announcement Bar sits at the top of every page. On desktop it can display multiple content types; on mobile only announcements are shown.
 
@@ -10,10 +8,10 @@ The Announcement Bar sits at the top of every page. On desktop it can display mu
 
 ### Desktop content options
 
-- **Announcement slider** — rotating text messages
-- **Menu** — navigation links
-- **Country and language selector**
-- **Social media links**
+* **Announcement slider** — rotating text messages
+* **Menu** — navigation links
+* **Country and language selector**
+* **Social media links**
 
 ### Adding an announcement
 
@@ -25,7 +23,7 @@ In block settings you can set a **Color scheme** — it applies to the entire An
 
 > **Note:** On mobile, only announcements (Text blocks) are displayed. Place other elements (Country/language, Links) in the **Menu Drawer** for mobile access.
 
----
+***
 
 ## Footer
 
@@ -43,23 +41,23 @@ In each block's settings you can adjust **horizontal and vertical alignment** in
 
 Enable **Menus in two columns** to display footer menu links side by side on mobile.
 
----
+***
 
 ## Bottom Bar
 
 The strip at the very bottom of the footer. Choose from three layout styles:
 
-| Style | Description |
-|-------|-------------|
-| **Stretched** | Content spans full width |
-| **Stacked** | Content stacked vertically |
-| **Centered** | Content centered horizontally |
+| Style         | Description                   |
+| ------------- | ----------------------------- |
+| **Stretched** | Content spans full width      |
+| **Stacked**   | Content stacked vertically    |
+| **Centered**  | Content centered horizontally |
 
 `[SCREENSHOT: Bottom bar style options]`
 
----
+***
 
 ## Related
 
-- [Header & Menu Styles](header-and-menu-styles.md)
-- [Smart Category Menu](smart-category-menu.md)
+* [Header & Menu Styles](header-and-menu-styles.md)
+* [Smart Category Menu](smart-category-menu.md)

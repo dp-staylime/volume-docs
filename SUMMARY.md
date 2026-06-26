@@ -27,12 +27,12 @@
 
 ## Products
 
-* [Product Page Layout](products/product-page-layout.md)
 * [Color Swatches](products/color-swatches.md)
+* [Linked Products](products/linked-products.md)
+* [Product Page Layout](products/product-page-layout.md)
 * [Inventory Status](products/inventory-status.md)
 * [Size Guide](products/size-guide.md)
 * [Custom Options](products/custom-options.md)
-* [Linked Products](products/linked-products.md)
 * [Quick View & Pre-order](products/quick-view-and-pre-order.md)
 
 ## Collections
