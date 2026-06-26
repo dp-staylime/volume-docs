@@ -1,64 +1,65 @@
 # Announcement Bar & Footer
 
-This page covers configuration for both the Announcement Bar (top of page) and the Footer (bottom of page).
+---
 
-### Announcement Bar
+## Announcement Bar
 
-The Announcement Bar is a thin strip at the very top of every page, ideal for promotions, shipping notices, or seasonal messages.
+The Announcement Bar sits at the top of every page. On desktop it can display multiple content types; on mobile only announcements are shown.
 
-#### Enabling the Announcement Bar
+`[SCREENSHOT: Announcement bar with scrolling text]`
 
-Go to **Online Store → Themes → Customize → Header → Announcement Bar** and toggle it on.
+### Desktop content options
 
-#### Settings
+- **Announcement slider** — rotating text messages
+- **Menu** — navigation links
+- **Country and language selector**
+- **Social media links**
 
-| Setting           | Description                              |
-| ----------------- | ---------------------------------------- |
-| Messages          | Add one or more rotating messages        |
-| Rotation speed    | Time (seconds) between message rotations |
-| Background color  | Bar background                           |
-| Text color        | Message text color                       |
-| Show close button | Allow customers to dismiss the bar       |
+### Adding an announcement
 
-#### Multiple Messages
+Add a **Text block** to the Announcement bar section. Each Text block becomes one slide in the slider.
 
-Add multiple messages to create a rotating announcement carousel. Each message can have its own text and optional link.
+In block settings you can set a **Color scheme** — it applies to the entire Announcement bar, not just the individual block.
 
-📸 SCREENSHOT: Announcement Bar with rotating messages on storefront
+`[SCREENSHOT: Adding a text block to the Announcement bar]`
 
-***
+> **Note:** On mobile, only announcements (Text blocks) are displayed. Place other elements (Country/language, Links) in the **Menu Drawer** for mobile access.
 
-### Footer
+---
 
-The Footer appears at the bottom of every page and typically contains navigation links, brand information, newsletter signup, and legal links.
+## Footer
 
-#### Footer Layout
+Configure from **Theme Editor → Footer section**.
 
-Choose the column structure:
+### Desktop layout
 
-* **1 column** — single centered block
-* **2 columns** — two equal-width blocks
-* **3 columns** — three-column layout
-* **4 columns** — four-column layout (default)
+Choose between **3 or 4 grid columns**. Blocks added to the Footer section are distributed **left to right** across the columns.
 
-📸 SCREENSHOT: Footer with 4-column layout
+In each block's settings you can adjust **horizontal and vertical alignment** independently for desktop.
 
-#### Footer Blocks
+`[SCREENSHOT: Footer with 4 columns in Theme Editor]`
 
-Each column can contain one of the following block types:
+### Mobile layout
 
-* **Link list** — section heading + list of navigation links
-* **Text** — freeform rich text (about us, contact info)
-* **Newsletter** — email signup form
-* **Image** — logo or brand image with optional link
+Enable **Menus in two columns** to display footer menu links side by side on mobile.
 
-#### Footer Bottom Bar
+---
 
-The bottom bar below the main footer contains:
+## Bottom Bar
 
-* Copyright text (auto-generated or custom)
-* Payment icons
-* Social media icons
-* Country/language selector (if multi-market enabled)
+The strip at the very bottom of the footer. Choose from three layout styles:
 
-📸 SCREENSHOT: Footer bottom bar with payment icons and social links
+| Style | Description |
+|-------|-------------|
+| **Stretched** | Content spans full width |
+| **Stacked** | Content stacked vertically |
+| **Centered** | Content centered horizontally |
+
+`[SCREENSHOT: Bottom bar style options]`
+
+---
+
+## Related
+
+- [Header & Menu Styles](header-and-menu-styles.md)
+- [Smart Category Menu](smart-category-menu.md)
