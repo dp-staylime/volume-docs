@@ -25,7 +25,7 @@ In block settings you can set a **Color scheme** — it applies to the entire An
 
 ***
 
-## Footer
+### Footer
 
 Configure from **Theme Editor → Footer section**.
 
@@ -43,7 +43,7 @@ Enable **Menus in two columns** to display footer menu links side by side on mob
 
 ***
 
-## Bottom Bar
+### Bottom Bar
 
 The strip at the very bottom of the footer. Choose from three layout styles:
 
@@ -57,7 +57,7 @@ The strip at the very bottom of the footer. Choose from three layout styles:
 
 ***
 
-## Related
+### Related
 
 * [Header & Menu Styles](header-and-menu-styles.md)
 * [Smart Category Menu](smart-category-menu.md)
