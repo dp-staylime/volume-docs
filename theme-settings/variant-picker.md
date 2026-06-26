@@ -1,44 +1,100 @@
 # Variant Picker
 
-The Variant Picker controls how product options (size, color, material) are displayed on product pages. Volume offers multiple display styles to match your store's design.
+Configure how product options (size, color, material) are displayed on product pages, Quick View, and Featured Product sections. Settings apply globally from **Theme settings → Variant Picker**.
 
-### Display Styles
+`[SCREENSHOT: Variant Picker settings panel]`
 
-Choose how variant options appear to customers:
+---
 
-| Style          | Best For                            |
-| -------------- | ----------------------------------- |
-| Dropdown       | Many options (10+), saves space     |
-| Buttons        | 2–8 options, clear visual selection |
-| Color swatches | Color variants with visual preview  |
-| Image swatches | Variants with custom swatch images  |
+## Display types
 
-📸 SCREENSHOT: Variant picker style options in Theme settings → Variant Picker
+Four display types are available for variant options:
 
-### Button Style
+| Type | Description |
+|------|-------------|
+| **Dropdown** | Default. Shown when no display type is specified for an option. |
+| **Pill** | Clickable labels. Supports multiple layout options. |
+| **Color Swatch** | Color circles or images. Three layout options available. |
+| **Variant Image** | Uses the variant image as the swatch thumbnail. |
 
-When using the **Buttons** style, configure the button appearance:
+**To apply a display type:** enter the exact option name (e.g. `Color`, `Size`) in the **Option Label** field under the corresponding display type.
 
-* **Shape** — Rounded, Square, or Pill
-* **Size** — Small, Medium, or Large
-* **Border** — Show/hide border on unselected options
+> **Tip:** To apply different display types to different options, enter multiple option names separated by commas in the Option Label field.
 
-### Unavailable Variants
+---
 
-Control how out-of-stock or unavailable variants are shown:
+## Layout options
 
-* **Hide** — remove from the picker entirely
-* **Cross out** — show with a strikethrough line
-* **Dim** — show at reduced opacity
+**Two layout options** are available for Pills and Color Swatches:
 
-📸 SCREENSHOT: Unavailable variant display options
+- **Two columns** — options displayed in two-column grid
+- **In a row** — options displayed horizontally
 
-### Swatches
+**Input Size** — **Big** or **Small** — applies across all display types.
 
-For color and image swatches, you can control:
+> **Tip:** The shape of input elements (border radius) is customized in **Theme settings → Shapes**.
 
-* **Swatch size** — diameter of the color circle or image
-* **Show tooltip** — display variant name on hover
-* **Per-row limit** — wrap swatches after N items
+---
 
-See also: Color Swatches for product-level swatch configuration.
+## Pills
+
+When the **Pill** display type is applied, four layout variations are available:
+
+- One-column pills with checkboxes
+- Two-column pills with checkboxes
+- Pills in a row
+- Pills in two columns
+
+`[SCREENSHOT: Four pill layout variations]`
+
+---
+
+## Color Swatches
+
+Three layout options for Color Swatches:
+
+- One-column swatches (small)
+- Two-column swatches (small)
+- Swatches in a row
+
+Additional controls: **Media Ratio** and **Corner Radius**.
+
+`[SCREENSHOT: Color swatch layout options]`
+
+For setting up swatch colors and images, see [Color Swatches](../products/color-swatches.md).
+
+---
+
+## Variant Image
+
+Displays the variant image as the swatch thumbnail. Layout settings do not apply for this type.
+
+Available controls:
+- **Image size** — separately for desktop and mobile
+- **Media Ratio**
+- **Corner Radius**
+
+`[SCREENSHOT: Variant image swatches on product page]`
+
+---
+
+## Linked Products
+
+Settings for the Linked Products swatch block displayed on product pages.
+
+| Setting | Description |
+|---------|-------------|
+| **Image size (desktop / mobile)** | Size of each linked product thumbnail |
+| **Media ratio** | Aspect ratio for the swatch images |
+| **Focal point** | Crop anchor for swatch images |
+| **Corner radius** | Border radius of the swatch thumbnails |
+
+For setup instructions, see [Linked Products](../products/linked-products.md).
+
+---
+
+## Related
+
+- [Color Swatches](../products/color-swatches.md) — HEX colors and image swatch setup
+- [Filter Swatches](filter-swatches.md) — same display types in collection filters
+- [Linked Products](../products/linked-products.md) — linking separate products as color swatches
