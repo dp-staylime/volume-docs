@@ -1,47 +1,53 @@
 # Mega Menu
 
-Mega Menu allows you to create rich, multi-column dropdown navigation panels for top-level menu items — including images, featured collections, and promotional content.
+Display nested menu items as an expanded panel with columns and banners — ideal for stores with many categories.
 
-### What Is a Mega Menu?
+`[SCREENSHOT: Mega Menu open on storefront with columns and banners]`
 
-A standard dropdown shows a simple list of links. A Mega Menu opens a full-width panel with multiple columns, images, and custom content blocks — ideal for stores with many categories or a strong visual brand.
+---
 
-📸 SCREENSHOT: Mega Menu dropdown open on storefront
+## How to set up
 
-### Enabling Mega Menu for a Nav Item
+1. Open **Theme Editor → Header section**
+2. Click **Add block → Mega menu**
+3. In the **Dropdown link** field, enter the exact name of the menu item that should open the mega panel
 
-Mega Menu is configured per menu item in the theme customizer:
+> **Note:** If your header contains items with duplicate names, use the **Menu handle** instead of the display name. Find it in **Shopify Admin → Content → Menus**.
 
-1. Go to **Online Store → Themes → Customize**
-2. Open the **Header** section
-3. Select a top-level navigation item
-4. Enable the **Mega Menu** toggle for that item
-5. Configure columns and content blocks
+`[SCREENSHOT: Mega menu block settings with Dropdown link field]`
 
-### Column Layout
+---
 
-Set the number of columns in the mega menu panel (2, 3, or 4). Each column can contain:
+## Customization options
 
-* **Link list** — a heading with sub-links below
-* **Collection image** — thumbnail + title linking to a collection
-* **Promotional banner** — custom image with overlay text and CTA button
+| Option | Description |
+|--------|-------------|
+| **Number of columns** | Set how many columns the dropdown panel contains |
+| **Dividers** | Show divider lines between columns |
+| **Top lines** | Show a line above the dropdown panel |
+| **Content alignment** | Horizontal alignment of links and content within columns |
+| **Banners** | Add image banners alongside navigation links |
+| **Banner position** | Set banners to the left or right of the link columns |
+| **Color scheme** | Separate color scheme for the mega panel background |
+| **Banner color scheme** | Separate color scheme for banners only |
 
-📸 SCREENSHOT: Mega Menu column configuration in theme customizer
+---
 
-### Promotional Banner Column
+## Banners only
 
-Add a visual promotional block to the far right column:
+You can display banners without any nested links for a menu item. Leave the nested menu items empty and add only banner blocks — useful for promotional panels or featured collections.
 
-| Setting      | Description                |
-| ------------ | -------------------------- |
-| Image        | Upload a promotional image |
-| Heading      | Banner headline text       |
-| Subtext      | Supporting description     |
-| Button label | CTA button text            |
-| Button link  | Where the button links     |
+`[SCREENSHOT: Mega menu with banners only, no link columns]`
 
-📸 SCREENSHOT: Mega Menu with promotional banner column
+---
 
-### Typography & Spacing
+## Mega Menu Short
 
-Configure heading size, link spacing, and column gap within the mega menu panel to match your store's design system.
+Same setup as the standard Mega menu but with a narrower panel width. Add a **Mega menu short** block instead of Mega menu.
+
+---
+
+## Related
+
+- [Header & Menu Styles](header-and-menu-styles.md) — header layouts and menu configurations
+- [Smart Category Menu](smart-category-menu.md) — category-based navigation
