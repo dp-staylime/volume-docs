@@ -1,30 +1,41 @@
 # Breadcrumbs
 
-Breadcrumbs are a secondary navigation trail that shows customers their current location within the store hierarchy — for example: Home → Collections → T-Shirts → Product Name.
+Show visitors their current location within the store — e.g. `Home / Collection / Product`. Improves navigation and product discoverability.
 
-### Enabling Breadcrumbs
+Configure from **Theme settings → Breadcrumbs**. Can be added as a **section** or **block** depending on the page template.
 
-Breadcrumbs can be enabled or disabled for individual page types:
+`[SCREENSHOT: Breadcrumbs shown on product page]`
 
-* **Collection pages** — show path from Home to the current collection
-* **Product pages** — show path from Home through the collection to the product
-* **Blog & article pages** — show path from Home to the blog and article
+---
 
-Go to **Online Store → Themes → Customize**, select the page type, and enable the breadcrumb toggle in the page settings.
+## SEO consideration
 
-📸 SCREENSHOT: Breadcrumbs displayed on a product page
+Breadcrumbs link products via their collection path, which creates multiple URLs for the same product:
 
-### Display Settings
+- `storename.com/collections/tshirts/products/logo-tee`
+- `storename.com/collections/sale/products/logo-tee`
 
-| Setting         | Description                                           |
-| --------------- | ----------------------------------------------------- |
-| Separator style | Character between breadcrumb items (/, >, arrow, dot) |
-| Text size       | Font size of breadcrumb text                          |
-| Show home link  | Include "Home" as the first breadcrumb item           |
-| Capitalize      | Apply text-transform: capitalize to breadcrumb labels |
+Shopify automatically handles canonical tags to prioritize the main product URL in search engines. In most cases enabling breadcrumbs is recommended — the navigation benefit outweighs the SEO trade-off.
 
-### SEO Benefit
+---
 
-Breadcrumbs automatically generate structured data (JSON-LD BreadcrumbList schema), which can improve how your store pages appear in Google search results with rich snippets showing the navigation path.
+## Path style options
 
-📸 SCREENSHOT: Google search result showing breadcrumb rich snippet
+### Show collections list page
+
+Includes a link to the collections list page right after Home:
+
+`Home / Collections / Tops / T-shirt`
+
+### Show top-level category
+
+If you use [Smart Category Menu](smart-category-menu.md), this option adds the top-level category to the breadcrumb path:
+
+`Home / Clothing / Tops / T-shirt`
+
+---
+
+## Related
+
+- [Smart Category Menu](smart-category-menu.md) — required for Show top-level category option
+- [Header & Menu Styles](header-and-menu-styles.md)
